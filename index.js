@@ -27,6 +27,6 @@ app.get('/:shortId', async (req, res) =>{
     res.redirect(entry.redirectUrl)
 });
 
-connectToMongodb('mongodb+srv://ChiragGwalani:Chirag123@cluster0.6smf1n8.mongodb.net/short-url?retryWrites=true&w=majority');
+connectToMongodb('mongodb+srv://<Your UserName>:<Your Password>@cluster0.6smf1n8.mongodb.net/short-url?retryWrites=true&w=majority');
 
 app.listen(PORT, () => console.log(`Your server is running on Port: ${PORT}`));
