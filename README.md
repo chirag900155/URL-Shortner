@@ -14,7 +14,7 @@ Install dependencies:
 npm install 
 
 Configure MongoDB:
-Make sure you have MongoDB installed and running.
+Make sure you have MongoDB installed and running. 
 Update the MongoDB connection URL in connect.js with your own database URL.
 
 How to Use
