@@ -11,7 +11,7 @@ git clone https://github.com/your-username/url-shortener.git
 Change to the project directory:
 cd url-shortener
 Install dependencies:
-npm install
+npm install 
 
 Configure MongoDB:
 Make sure you have MongoDB installed and running.
